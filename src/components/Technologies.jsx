@@ -52,53 +52,60 @@ const Technologies = () => {
                     variants={iconVariants(2.5)}
                     initial="initial"
                     animate="animate"
-                    className='rounded-2xl border-4 border-neutral-800 p-4'>
+                    className='rounded-2xl border-4 border-neutral-800 p-4 text-center'>
                     <RiReactjsLine className='text-7xl' style={{ color: '#61DAFB' }} />
+                    <span className='mt-2 block text-lg'>ReactJS</span>
                 </motion.div>
                 <motion.div
                     variants={iconVariants(3)}
                     initial="initial"
                     animate="animate"
-                    className='rounded-2xl border-4 border-neutral-800 p-4'>
+                    className='rounded-2xl border-4 border-neutral-800 p-4 text-center'>
                     <TbBrandNextjs className='text-7xl' style={{ color: '#ffffff' }} />
+                    <span className='mt-2 block text-lg'>Next.js</span>
                 </motion.div>
                 <motion.div
                     variants={iconVariants(5)}
                     initial="initial"
                     animate="animate"
-                    className='rounded-2xl border-4 border-neutral-800 p-4'>
+                    className='rounded-2xl border-4 border-neutral-800 p-4 text-center'>
                     <SiMongodb className='text-7xl' style={{ color: '#47A248' }} />
+                    <span className='mt-2 block text-lg'>MongoDB</span>
                 </motion.div>
                 <motion.div
                     variants={iconVariants(2)}
                     initial="initial"
                     animate="animate"
-                    className='rounded-2xl border-4 border-neutral-800 p-4'>
+                    className='rounded-2xl border-4 border-neutral-800 p-4 text-center'>
                     <FaNodeJs className='text-7xl' style={{ color: '#339933' }} />
+                    <span className='mt-2 block text-lg'>Node.js</span>
                 </motion.div>
                 <motion.div
                     variants={iconVariants(6)}
                     initial="initial"
                     animate="animate"
-                    className='rounded-2xl border-4 border-neutral-800 p-4'>
+                    className='rounded-2xl border-4 border-neutral-800 p-4 text-center'>
                     <SiMysql className='text-7xl' style={{ color: '#4479A1' }} />
+                    <span className='mt-2 block text-lg'>MySQL</span>
                 </motion.div>
                 <motion.div
                     variants={iconVariants(3)}
                     initial="initial"
                     animate="animate"
-                    className='rounded-2xl border-4 border-neutral-800 p-4'>
+                    className='rounded-2xl border-4 border-neutral-800 p-4 text-center'>
                     <FaJava className='text-7xl' style={{ color: '#007396' }} />
+                    <span className='mt-2 block text-lg'>Java</span>
                 </motion.div>
                 <motion.div
                     variants={iconVariants(5)}
                     initial="initial"
                     animate="animate"
-                    className='rounded-2xl border-4 border-neutral-800 p-4'>
+                    className='rounded-2xl border-4 border-neutral-800 p-4 text-center'>
                     <SiPython className='text-7xl' style={{ color: '#306998' }} />
+                    <span className='mt-2 block text-lg'>Python</span>
                 </motion.div>
             </motion.div>
-        </div >
+        </div>
     );
 };
 
