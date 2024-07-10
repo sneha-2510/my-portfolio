@@ -13,7 +13,7 @@ const container = (delay) => ({
 });
 
 const openResume = () => {
-    window.open('/Sneha-Resume-Latest.pdf', '_blank');
+    window.open('/Sneha-resume-Latest.pdf', '_blank');
 };
 
 
