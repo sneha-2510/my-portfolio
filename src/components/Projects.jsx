@@ -54,13 +54,32 @@ const Projects = () => {
                             variants={rightVariants}
                             viewport={{ once: false, amount: 0.5 }}
                         >
-                            <h6 className='mb-2 font-semibold'>{project.title}</h6>
+                            <h6 className='mb-2 font-semibold'>
+                                <a
+                                    href={project.link}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="text-purple-400 hover:underline"
+                                >
+                                    {project.title}
+                                </a>
+                            </h6>
                             <p className='mb-4 text-neutral-400'>{project.description}</p>
                             {project.technologies.map((tech, techIndex) => (
                                 <span key={techIndex} className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 font-medium text-purple-100'>
                                     {tech}
                                 </span>
                             ))}
+                            <div>
+                                <a
+                                    href={project.link}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="text-blue-500 hover:underline"
+                                >
+                                    View Project
+                                </a>
+                            </div>
                         </motion.div>
                     </div>
                 ))}

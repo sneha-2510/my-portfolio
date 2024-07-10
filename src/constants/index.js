@@ -2,6 +2,9 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import contactBook from "../assets/projects/contact-book.png"
+import music from "../assets/projects/music.png"
+import passwordImg from "../assets/projects/passwordGenerator.jpg"
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. Excellent problem-solving, research, and collaboration abilities. I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -21,34 +24,63 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Blogify",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A comprehensive blogging platform enabling users to create, edit, and manage blog posts, with robust user authentication.",
+    technologies: ["NodeJs", "MongoDB", "EJS", "ExpressJS"],
+    link: "https://github.com/sneha-2510/Blogify",
+  },
+  {
+    title: "Contact Book",
+    image: contactBook,
+    description:
+      "An application for managing contacts, featuring search, filtering, and detailed contact information.",
+    technologies: ["React JS", "React Router"],
+    link: "https://contact-book-beta.vercel.app/"
+  },
+  {
+    title: "Sorting Visualizer",
+    image: project4,
+    description:
+      "An interactive tool to visualize various sorting algorithms, aiding in the understanding of their operations and efficiencies.",
+    technologies: ["HTML", "CSS", "Javascript"],
+    link: "https://sneha-2510.github.io/Sorting_Visualizer/"
   },
   {
     title: "Task Management App",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "A task and project management application allowing users to create, assign, and track the progress of tasks and projects.",
+    technologies: ["ReactJs", "Redux", "Redux Toolkit"],
+    link: "https://task-manager-ten-plum.vercel.app/"
   },
   {
     title: "Portfolio Website",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "A personal portfolio website showcasing projects, skills, and contact information with smooth animations.",
+    technologies: ["ReactJS", "Framer Motion", "Javascript"],
+    link: "https://my-portfolio-sneha-ranis-projects-652b9956.vercel.app/"
   },
   {
-    title: "Blogging Platform",
-    image: project4,
+    title: "Music Course Website",
+    image: music,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A platform for offering and managing music courses, with features such as course listing, enrollment, and progress tracking.",
+    technologies: ["NextJS", "Accernity", "Javascript"],
+    link: "https://music-courses-app.vercel.app/"
+  },
+  {
+    title: "Password Generator",
+    image: passwordImg,
+    description:
+      "A tool to generate strong, secure passwords, with customizable options for length and character types.",
+    technologies: ["ReactJs", "Javascript"],
+    link: "https://react-projects-one-fawn.vercel.app/"
   },
 ];
+
 
 export const CONTACT = {
   address: "Kolkata , West-Bengal , India",
